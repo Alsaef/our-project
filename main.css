@@ -1,0 +1,54 @@
+ @import url('https://fonts.googleapis.com/css2?family=Asap&family=Libre+Baskerville&display=swap');
+body{
+    font-family: 'Asap', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-size: 40px;
+    
+}
+span{
+    color: orangered;
+}
+.flex-box{
+    display: flex;
+    margin-bottom: 100px;
+}
+.haf-width{
+    width: 50%;
+    padding-left:5%;
+}
+.haf-width img{
+    width: 80%;
+}
+.top-banner{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+.dream-banner{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.item{
+    border-radius: 5px;
+    padding-left: 5%;
+    width: 50%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.border-color1{
+    border-left: 10px orangered solid;
+}
+.border-color2{
+    border-left: 10px blue solid;
+}
+.item h3{
+    color: orange;
+}
+.explore-bannert{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+}
